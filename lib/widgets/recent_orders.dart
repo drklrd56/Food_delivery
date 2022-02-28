@@ -12,7 +12,7 @@ class RecentOrders extends StatelessWidget {
         borderRadius: BorderRadius.circular(15.0),
         border: Border.all(
           width: 1.0,
-          color: Colors.grey[200],
+          color: Colors.grey.shade200,
         ),
       ),
       child: Row(
@@ -89,7 +89,7 @@ class RecentOrders extends StatelessWidget {
     );
   }
 
-  const RecentOrders({Key key}) : super(key: key);
+  const RecentOrders({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

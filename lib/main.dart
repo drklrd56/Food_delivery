@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.grey[50],
         primaryColor: Colors.deepOrangeAccent,
+        appBarTheme: AppBarTheme(
+          centerTitle: true,
+          backgroundColor: Colors.deepOrangeAccent,
+        ),
       ),
       home: HomeScreen(),
     );
